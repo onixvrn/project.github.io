@@ -1,0 +1,113 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: #57EB86;
+    display:flex;
+    justify-content:center;
+
+}
+.container{
+    background-color: #14782F;
+    width: 900px;
+}
+.reg{
+    background-color: #2DE2A1;
+    width: 900px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Comic Sans MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}    
+header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #57EB86;
+}
+main{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.center{
+    width: 640px;
+    height: 700px;
+    left: 700px;
+    background: #5A433A;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+}
+.left1{
+    width: 129px;
+    height: 223px;
+    background: #5A433A;
+    margin-left: 30px;
+    display: flex;
+    font-family: 'Comic Sans MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #57EB86;
+    text-decoration: underline;
+}
+.left2{
+    width: 129px;
+    height: 223px;
+    background: #5A433A;
+    margin-left: 30px;
+    
+    display: flex;
+    font-family: 'Comic Sans MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #57EB86;
+    text-decoration: underline;
+}
+.left3{
+    width: 129px;
+    height: 223px;
+    background: #5A433A;
+    margin-left: 30px;
+  
+    display: flex;
+    font-family: 'Comic Sans MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #57EB86;
+    text-decoration: underline;
+}
+.bottom{
+    width: 899px;
+    height: 82px;
+    background: #5A433A;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #58D67C;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+    margin-top: 40px;
+}
